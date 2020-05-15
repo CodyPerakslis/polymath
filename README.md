@@ -10,3 +10,4 @@ This repo is for polyglot math (multiple coding languages).
 |---------|----------|
 | p1 | rust |
 | p2 | sql |
+| p3 | haskell |
