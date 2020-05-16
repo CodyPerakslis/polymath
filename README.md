@@ -14,3 +14,4 @@ This repo is for polyglot math (multiple coding languages).
 | p4 | javascript |
 | p5 | swift |
 | p6 | bash |
+| p7 | c |
