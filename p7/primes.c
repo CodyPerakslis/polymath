@@ -64,7 +64,7 @@ void blockOut(bool* sieve, int start, int stride) {
 
 void prepareSieve(bool* sieve, int sieveStart, int* primes, int primeCount) {
   resetSieve(sieve);
-  int last, first;
+  int last;
   int sieveStopUpdate = ceil(sqrt(sieveStart+sieveCount));
   for(int i = 0; i < primeCount && primes[i] < sieveStopUpdate; i++) {
     last = primes[i] * (int)floor(sieveStart/primes[i]);
