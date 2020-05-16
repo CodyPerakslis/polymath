@@ -13,3 +13,4 @@ This repo is for polyglot math (multiple coding languages).
 | p3 | haskell |
 | p4 | javascript |
 | p5 | swift |
+| p6 | bash |
