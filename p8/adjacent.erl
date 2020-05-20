@@ -30,6 +30,8 @@
 -version("1.0").
 -export([start/0, adj/2, adj/4, calculate/2, calculate/5, add_adj/5, adjacency/2]).
 
+% Calculate the product of substring
+% Send the result to another process
 adj(String, Pid) -> adj(String, 0, Pid, 1).
 adj(String, N, Pid, Prod) ->
   case string:to_integer(string:slice(String, N,1)) of
@@ -38,6 +40,9 @@ adj(String, N, Pid, Prod) ->
     {Val, _} -> adj(String, N+1, Pid, Prod*Val)
   end.
 
+% Keep track of the maximum value
+% Read in values from other processes
+% Send the result to another process
 calculate(N, Pid) -> calculate(0,[],0,N,Pid).
 calculate(Max, MaxString, N, N, Pid) -> Pid ! {solution, {Max, MaxString}};
 calculate(Max, MaxString, Count, Total, Pid) ->
@@ -50,6 +55,7 @@ calculate(Max, MaxString, Count, Total, Pid) ->
       end
   end.
 
+% Split into substrings for adj threads
 add_adj(String, Start, N, L, Pid) when Start + N < L ->
     adj(string:slice(String,Start,N), Pid),
     add_adj(String, Start+1, N, L, Pid);
@@ -57,7 +63,7 @@ add_adj(String, Start, N, L, Pid) when Start + N >= L ->
   adj(string:slice(String,Start,N), Pid).
 
 
-
+% Determine the maximum adjacency product of size N
 adjacency(String, N) ->
   L = string:len(String),
   if
