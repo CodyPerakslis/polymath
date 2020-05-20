@@ -16,3 +16,4 @@ This repo is for polyglot math (multiple coding languages).
 | p6 | bash |
 | p7 | c |
 | p8 | erlang |
+| p9 | ruby |
