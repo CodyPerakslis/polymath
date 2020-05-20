@@ -15,3 +15,4 @@ This repo is for polyglot math (multiple coding languages).
 | p5 | swift |
 | p6 | bash |
 | p7 | c |
+| p8 | erlang |
