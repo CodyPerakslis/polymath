@@ -8,13 +8,13 @@ This repo is for polyglot math (multiple coding languages).
 
 | Problem | Language |
 |---------|----------|
-| p1 | rust |
-| p2 | sql |
-| p3 | haskell |
-| p4 | javascript |
-| p5 | swift |
-| p6 | bash |
-| p7 | c |
-| p8 | erlang |
-| p9 | ruby |
-| p10 | java |
+| p001 | rust |
+| p002 | sql |
+| p003 | haskell |
+| p004 | javascript |
+| p005 | swift |
+| p006 | bash |
+| p007 | c |
+| p008 | erlang |
+| p009 | ruby |
+| p010 | java |
