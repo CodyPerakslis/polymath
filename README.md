@@ -23,7 +23,7 @@ This repo is for polyglot math (multiple coding languages).
 | p013 | typescript |
 | p014 | golang | :white_check_mark:
 | p015 | c++ |
-| p016 | elixir |
+| p016 | elixir | :black_square_button:
 | p017 | scala |
 | p018 | c# |
 | p019 | julia |
