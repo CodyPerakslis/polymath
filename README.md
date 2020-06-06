@@ -21,7 +21,7 @@ This repo is for polyglot math (multiple coding languages).
 | p011 | python | :white_check_mark:
 | p012 | elm | :black_square_button:
 | p013 | typescript |
-| p014 | golang |
+| p014 | golang | :white_check_mark:
 | p015 | c++ |
 | p016 | elixir |
 | p017 | scala |
