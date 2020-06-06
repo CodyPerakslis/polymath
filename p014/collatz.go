@@ -1,7 +1,5 @@
 package collatz
 
-import "log"
-
 type Collatz interface {
   FillTable()
   LargestChain() (int, int)
