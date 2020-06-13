@@ -2,7 +2,7 @@
 
 This repo is for polyglot math (multiple coding languages).
 
-> :warning: This repo will have solutions to a few archived Project Euler challenges. Please do not look if you are attempting these problems. PE gives permission to make the methods of the first 100 public, so those are the problems I look at.
+> :warning: This repo will have solutions to a few archived Project Euler challenges. Please do not look if you are attempting these problems. PE gives permission to make the methods of the first 100 public.
 
 ### Languages
 
